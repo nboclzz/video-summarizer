@@ -9,6 +9,7 @@ This application allows users to upload a video or provide a YouTube URL, and ch
 - Python 3.8 or higher
 - pip
 - whisper.cpp
+- ffmpeg
 
 ### Virtual Environment Setup
 
