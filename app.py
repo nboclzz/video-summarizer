@@ -98,5 +98,4 @@ if submitted:
             st.error(f"Error: {e}")
 
 if st.session_state["output"]:
-    st.subheader("Output")
-    st.write(st.session_state["output"])
+    st.text_area("Output", st.session_state["output"])
